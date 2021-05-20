@@ -14,6 +14,8 @@ public class gateway {
 
     public static void main(String[] args) {
         SpringApplication.run(gateway.class);
+
+        //这是历史版本1
     }
 
 }
