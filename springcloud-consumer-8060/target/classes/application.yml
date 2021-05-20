@@ -1,0 +1,18 @@
+server:
+  port: 8060
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetchRegistry: true
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka/
+
+spring:
+  application:
+    name: cloud-pay-consumer
+
+#配置访问微服务CLOUD-PAYMENT-SERVICE-1的负载均衡策略
+CLOUD-PAYMENT-SERVICE-1:
+  ribbon:
+    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
