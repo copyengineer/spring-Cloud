@@ -14,6 +14,6 @@ public class gateway {
 
     public static void main(String[] args) {
         SpringApplication.run(gateway.class);//这是注释2qqq
-        System.out.println("springcloud!!!");
+        System.out.println("springcloud!!!!");
     }
 }
