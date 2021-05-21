@@ -17,6 +17,7 @@ public class gateway {
         SpringApplication.run(gateway.class);
         System.out.println("可以使用了！！！");
         System.out.println("可以使用了2！！！");//sadaada
+        System.out.println(22222);
         //这是历史版本1
     }
 
