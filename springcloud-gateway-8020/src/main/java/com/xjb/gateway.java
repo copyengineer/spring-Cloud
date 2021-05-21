@@ -16,7 +16,7 @@ public class gateway {
         System.out.println("热修复完成");
         SpringApplication.run(gateway.class);
         System.out.println("可以使用了！！！");
-        System.out.println("可以使用了2！！！");//sadaada
+        System.out.println("可以使用了2222！！！");//sadaada
         System.out.println(22222);
         //这是历史版本1
     }
