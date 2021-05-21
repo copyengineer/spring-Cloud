@@ -13,11 +13,10 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 public class gateway {
 
     public static void main(String[] args) {
+        System.out.println("热修复完成");
         SpringApplication.run(gateway.class);
 
         //这是历史版本1
-        System.out.println("热修复完成");
-        System.out.println("可以合并了");
     }
 
 }
